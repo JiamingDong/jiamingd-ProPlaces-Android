@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">People and Places</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="search_action">Search</string>
+    <string name="search_hint">enter a place or person name</string>
+
+    <string-array name="listOptions">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1 is selected</item>
+        <item>2 is selected</item>
+        <item>3 is selected</item>
+    </string-array>
+    <string-array name="list_preference">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="department">
+        <item>Computer Science</item>
+        <item>Physical</item>
+        <item>Mathematics</item>
+    </string-array>
+    <string-array name="department_value">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+    </string-array>
+    <string name="title_activity_guide">GuideActivity</string>
+
+    <string-array name="gene_category">
+        <item>Arts Entertainment</item>
+        <item>Automotive</item>
+        <item>Beauty and Spas</item>
+        <item>Financial Services</item>
+        <item>Food</item>
+        <item>Health and Medical</item>
+        <item>Home Services</item>
+        <item>Hotels and Travel</item>
+        <item>Local Flavour</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="minor_general_category">
+        <item>arcades|Arts Entertainment</item>
+        <item>galleries|Arts Entertainment</item>
+        <item>gardens|Arts Entertainment</item>
+        <item>casinos|Arts Entertainment</item>
+        <item>movietheaters|Arts Entertainment</item>
+        <item>festivals|Arts Entertainment</item>
+        <item>jazzandblues|Arts Entertainment</item>
+        <item>museums|Arts Entertainment</item>
+        <item>musicvenues|Arts Entertainment</item>
+        <item>opera|Arts Entertainment</item>
+        <item>theater|Arts Entertainment</item>
+        <item>sportsteams|Arts Entertainment</item>
+        <item>psychic_astrology|Arts Entertainment</item>
+        <item>social_clubs|Arts Entertainment</item>
+        <item>stadiumsarenas|Arts Entertainment</item>
+        <item>wineries|Arts Entertainment</item>
+        <item>arts|Arts Entertainment</item>
+        <item>auto_detailing|Automotive</item>
+        <item>autoglass|Automotive</item>
+        <item>autopartssupplies|Automotive</item>
+        <item>autorepair|Automotive</item>
+        <item>bodyshops|Automotive</item>
+        <item>car_dealers|Automotive</item>
+        <item>stereo_installation|Automotive</item>
+        <item>carwash|Automotive</item>
+        <item>servicestations|Automotive</item>
+        <item>motorcycledealers|Automotive</item>
+        <item>motorcyclerepair|Automotive</item>
+        <item>oilchange|Automotive</item>
+        <item>parking|Automotive</item>
+        <item>smog_check_stations|Automotive</item>
+        <item>tires|Automotive</item>
+        <item>towing|Automotive</item>
+        <item>windshieldinstallrepair|Automotive</item>
+        <item>auto|Automotive</item>
+        <item>barbers|Beauty and Spas</item>
+        <item>cosmetics|Beauty and Spas</item>
+        <item>spas|Beauty and Spas</item>
+        <item>eyelashservice|Beauty and Spas</item>
+        <item>laser_hair_removal|Beauty and Spas</item>
+        <item>hairremoval|Beauty and Spas</item>
+        <item>hair|Beauty and Spas</item>
+        <item>makeupartists|Beauty and Spas</item>
+        <item>massage|Beauty and Spas</item>
+        <item>medicalspa|Beauty and Spas</item>
+        <item>othersalons|Beauty and Spas</item>
+        <item>piercing|Beauty and Spas</item>
+        <item>skincare|Beauty and Spas</item>
+        <item>tanning|Beauty and Spas</item>
+        <item>tattoo|Beauty and Spas</item>
+        <item>beautysvc|Beauty and Spas</item>
+        <item>banks|Financial Services</item>
+        <item>paydayloans|Financial Services</item>
+        <item>financialadvising|Financial Services</item>
+        <item>insurance|Financial Services</item>
+        <item>investing|Financial Services</item>
+        <item>taxservices|Financial Services</item>
+        <item>financialservices|Financial Services</item>
+        <item>afghani|Food</item>
+        <item>african|Food</item>
+        <item>argentine|Food</item>
+        <item>asianfusion|Food</item>
+        <item>bbq|Food</item>
+        <item>basque|Food</item>
+        <item>belgian|Food</item>
+        <item>brasseries|Food</item>
+        <item>brazilian|Food</item>
+        <item>breakfast_brunch|Food</item>
+        <item>british|Food</item>
+        <item>buffets|Food</item>
+        <item>burgers|Food</item>
+        <item>burmese|Food</item>
+        <item>cafes|Food</item>
+        <item>cajun|Food</item>
+        <item>cambodian|Food</item>
+        <item>newamerican|Food</item>
+        <item>tradamerican|Food</item>
+        <item>caribbean|Food</item>
+        <item>cheesesteaks|Food</item>
+        <item>chicken_wings|Food</item>
+        <item>dimsum|Food</item>
+        <item>chinese|Food</item>
+        <item>creperies|Food</item>
+        <item>cuban|Food</item>
+        <item>delis|Food</item>
+        <item>diners|Food</item>
+        <item>ethiopian|Food</item>
+        <item>hotdogs|Food</item>
+        <item>filipino|Food</item>
+        <item>fishnchips|Food</item>
+        <item>fondue|Food</item>
+        <item>foodstands|Food</item>
+        <item>french|Food</item>
+        <item>gastropubs|Food</item>
+        <item>german|Food</item>
+        <item>gluten_free|Food</item>
+        <item>greek|Food</item>
+        <item>halal|Food</item>
+        <item>hawaiian|Food</item>
+        <item>himalayan|Food</item>
+        <item>hotdog|Food</item>
+        <item>hungarian|Food</item>
+        <item>indpak|Food</item>
+        <item>indonesian|Food</item>
+        <item>irish|Food</item>
+        <item>italian|Food</item>
+        <item>japanese|Food</item>
+        <item>korean|Food</item>
+        <item>kosher|Food</item>
+        <item>latin|Food</item>
+        <item>raw_food|Food</item>
+        <item>malaysian|Food</item>
+        <item>mediterranean|Food</item>
+        <item>mexican|Food</item>
+        <item>mideastern|Food</item>
+        <item>modern_european|Food</item>
+        <item>mongolian|Food</item>
+        <item>moroccan|Food</item>
+        <item>pakistani|Food</item>
+        <item>persian|Food</item>
+        <item>peruvian|Food</item>
+        <item>pizza|Food</item>
+        <item>polish|Food</item>
+        <item>portuguese|Food</item>
+        <item>russian|Food</item>
+        <item>salad|Food</item>
+        <item>sandwiches|Food</item>
+        <item>scandinavian|Food</item>
+        <item>seafood|Food</item>
+        <item>singaporean|Food</item>
+        <item>soulfood|Food</item>
+        <item>soup|Food</item>
+        <item>southern|Food</item>
+        <item>spanish|Food</item>
+        <item>steak|Food</item>
+        <item>sushi|Food</item>
+        <item>taiwanese|Food</item>
+        <item>tapas|Food</item>
+        <item>tapasmallplates|Food</item>
+        <item>tex-mex|Food</item>
+        <item>thai|Food</item>
+        <item>turkish|Food</item>
+        <item>ukrainian|Food</item>
+        <item>vegan|Food</item>
+        <item>vegetarian|Food</item>
+        <item>vietnamese|Food</item>
+        <item>restaurants|Food</item>
+        <item>bagels|Food</item>
+        <item>bakeries|Food</item>
+        <item>beer_and_wine|Food</item>
+        <item>breweries|Food</item>
+        <item>butcher|Food</item>
+        <item>coffee|Food</item>
+        <item>convenience|Food</item>
+        <item>desserts|Food</item>
+        <item>diyfood|Food</item>
+        <item>donuts|Food</item>
+        <item>farmersmarket|Food</item>
+        <item>fooddeliveryservices|Food</item>
+        <item>grocery|Food</item>
+        <item>icecream|Food</item>
+        <item>internetcafe|Food</item>
+        <item>juicebars|Food</item>
+        <item>candy|Food</item>
+        <item>cheese|Food</item>
+        <item>chocolate|Food</item>
+        <item>ethnicmarkets|Food</item>
+        <item>markets|Food</item>
+        <item>healthmarkets|Food</item>
+        <item>herbsandspices|Food</item>
+        <item>meats|Food</item>
+        <item>seafoodmarkets|Food</item>
+        <item>gourmet|Food</item>
+        <item>streetvendors|Food</item>
+        <item>tea|Food</item>
+        <item>wineries|Food</item>
+        <item>food|Food</item>
+        <item>acupuncture|Health and Medical</item>
+        <item>cannabis_clinics|Health and Medical</item>
+        <item>chiropractors|Health and Medical</item>
+        <item>c_and_mh|Health and Medical</item>
+        <item>cosmeticdentists|Health and Medical</item>
+        <item>endodontists|Health and Medical</item>
+        <item>generaldentistry|Health and Medical</item>
+        <item>oralsurgeons|Health and Medical</item>
+        <item>orthodontists|Health and Medical</item>
+        <item>pediatric_dentists|Health and Medical</item>
+        <item>periodontists|Health and Medical</item>
+        <item>dentists|Health and Medical</item>
+        <item>allergist|Health and Medical</item>
+        <item>audiologist|Health and Medical</item>
+        <item>cardiology|Health and Medical</item>
+        <item>cosmeticsurgeons|Health and Medical</item>
+        <item>dermatology|Health and Medical</item>
+        <item>earnosethroat|Health and Medical</item>
+        <item>familydr|Health and Medical</item>
+        <item>fertility|Health and Medical</item>
+        <item>gastroenterologist|Health and Medical</item>
+        <item>gerontologist|Health and Medical</item>
+        <item>internalmed|Health and Medical</item>
+        <item>naturopathic|Health and Medical</item>
+        <item>neurologist|Health and Medical</item>
+        <item>obgyn|Health and Medical</item>
+        <item>oncologist|Health and Medical</item>
+        <item>opthamalogists|Health and Medical</item>
+        <item>orthopedists|Health and Medical</item>
+        <item>osteopathicphysicians|Health and Medical</item>
+        <item>pediatricians|Health and Medical</item>
+        <item>podiatrists|Health and Medical</item>
+        <item>proctologist|Health and Medical</item>
+        <item>psychiatrists|Health and Medical</item>
+        <item>pulmonologist|Health and Medical</item>
+        <item>sportsmed|Health and Medical</item>
+        <item>tattooremoval|Health and Medical</item>
+        <item>physicians|Health and Medical</item>
+        <item>homehealthcare|Health and Medical</item>
+        <item>hospice|Health and Medical</item>
+        <item>hospitals|Health and Medical</item>
+        <item>laserlasikeyes|Health and Medical</item>
+        <item>medcenters|Health and Medical</item>
+        <item>medicalspa|Health and Medical</item>
+        <item>midwives|Health and Medical</item>
+        <item>nutritionists|Health and Medical</item>
+        <item>optometrists|Health and Medical</item>
+        <item>physicaltherapy|Health and Medical</item>
+        <item>retirement_homes|Health and Medical</item>
+        <item>speech_therapists|Health and Medical</item>
+        <item>tcm|Health and Medical</item>
+        <item>urgent_care|Health and Medical</item>
+        <item>weightlosscenters|Health and Medical</item>
+        <item>health|Health and Medical</item>
+        <item>buildingsupplies|Home Services</item>
+        <item>carpetinstallation|Home Services</item>
+        <item>carpeting|Home Services</item>
+        <item>contractors|Home Services</item>
+        <item>electricians|Home Services</item>
+        <item>flooring|Home Services</item>
+        <item>gardeners|Home Services</item>
+        <item>handyman|Home Services</item>
+        <item>hvac|Home Services</item>
+        <item>homecleaning|Home Services</item>
+        <item>home_inspectors|Home Services</item>
+        <item>hometheatreinstallation|Home Services</item>
+        <item>interiordesign|Home Services</item>
+        <item>isps|Home Services</item>
+        <item>locksmiths|Home Services</item>
+        <item>landscapearchitects|Home Services</item>
+        <item>landscaping|Home Services</item>
+        <item>lighting|Home Services</item>
+        <item>movers|Home Services</item>
+        <item>painters|Home Services</item>
+        <item>plumbing|Home Services</item>
+        <item>poolcleaners|Home Services</item>
+        <item>apartments|Home Services</item>
+        <item>homestaging|Home Services</item>
+        <item>mortgagebrokers|Home Services</item>
+        <item>propertymgmt|Home Services</item>
+        <item>realestateagents|Home Services</item>
+        <item>realestatesvcs|Home Services</item>
+        <item>university_housing|Home Services</item>
+        <item>realestate|Home Services</item>
+        <item>roofing|Home Services</item>
+        <item>securitysystems|Home Services</item>
+        <item>blinds|Home Services</item>
+        <item>solarinstallation|Home Services</item>
+        <item>televisionserviceproviders|Home Services</item>
+        <item>treeservices|Home Services</item>
+        <item>windowwashing|Home Services</item>
+        <item>windowsinstallation|Home Services</item>
+        <item>homeservices|Home Services</item>
+        <item>airports|Hotels and Travel</item>
+        <item>bedbreakfast|Hotels and Travel</item>
+        <item>campgrounds|Hotels and Travel</item>
+        <item>carrental|Hotels and Travel</item>
+        <item>guesthouses|Hotels and Travel</item>
+        <item>hostels|Hotels and Travel</item>
+        <item>hotels|Hotels and Travel</item>
+        <item>rvrental|Hotels and Travel</item>
+        <item>skiresorts|Hotels and Travel</item>
+        <item>tours|Hotels and Travel</item>
+        <item>airlines|Hotels and Travel</item>
+        <item>airport_shuttles|Hotels and Travel</item>
+        <item>limos|Hotels and Travel</item>
+        <item>publictransport|Hotels and Travel</item>
+        <item>taxis|Hotels and Travel</item>
+        <item>transport|Hotels and Travel</item>
+        <item>travelservices|Hotels and Travel</item>
+        <item>vacationrentalagents|Hotels and Travel</item>
+        <item>hotelstravel|Hotels and Travel</item>
+        <item>airports|Local Flavour</item>
+        <item>bedbreakfast|Local Flavour</item>
+        <item>campgrounds|Local Flavour</item>
+        <item>carrental|Local Flavour</item>
+        <item>guesthouses|Local Flavour</item>
+        <item>hostels|Local Flavour</item>
+        <item>hotels|Local Flavour</item>
+        <item>rvrental|Local Flavour</item>
+        <item>skiresorts|Local Flavour</item>
+        <item>tours|Local Flavour</item>
+        <item>airlines|Local Flavour</item>
+        <item>airport_shuttles|Local Flavour</item>
+        <item>limos|Local Flavour</item>
+        <item>publictransport|Local Flavour</item>
+        <item>taxis|Local Flavour</item>
+        <item>transport|Local Flavour</item>
+        <item>travelservices|Local Flavour</item>
+        <item>vacationrentalagents|Local Flavour</item>
+        <item>hotelstravel|Local Flavour</item>
+        <item>localflavor|Local Flavour</item>
+    </string-array>
+
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="person_category">
+        <item>Normal</item>
+        <item>Friend</item>
+        <item>Colleague</item>
+        <item>Family</item>
+        <item>Leader</item>
+        <item>Teacher</item>
+    </string-array>
+</resources>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff363636"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_automotive"
+                    style="@style/filter_text"
+                    android:text="Automotive"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_arts"
+                    style="@style/filter_text"
+                    android:text="Arts Entertainment"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_beauty"
+                    style="@style/filter_text"
+                    android:text="Beauty and Spas"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_financial"
+                    style="@style/filter_text"
+                    android:text="Financial Services"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_food"
+                    style="@style/filter_text"
+                    android:text="Food"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_health"
+                    style="@style/filter_text"
+                    android:text="Health and Medical"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_home"
+                    style="@style/filter_text"
+                    android:text="Home Services"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_hotels"
+                    style="@style/filter_text"
+                    android:text="Hotels and Travel"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_local_flavor"
+                    style="@style/filter_text"
+                    android:text="Local Flavour"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+    <LinearLayout
+        style="@style/filter_linear_v"
+        >
+
+        <LinearLayout
+            style="@style/filter_linear_h"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/filter_Others"
+                    style="@style/filter_text"
+                    android:text="Others"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff000000"
+        ></View>
+
+
+</LinearLayout>

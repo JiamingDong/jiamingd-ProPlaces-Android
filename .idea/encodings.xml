@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="false" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/FavActionUtility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/GoogleResultsData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/Place.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/ResultsDialogActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/VolleySingleton.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/db/RestosDbAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/db/RestosSimpleCursorAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gerber/uchicago/edu/sound/SoundVibeUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/color/pop_back_color.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_selector.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_selector_edit.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/gear.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-v11" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_resto.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_new_resto.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reminders_layout.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/filters_row.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/pop_layout.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/restos_row.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/cam_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/cam_menu_search.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/edit_resto.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/reminders_menu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/results_dialog.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/power_up.mp3" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/swish.mp3" charset="windows-1252" />
+  </component>
+</project>

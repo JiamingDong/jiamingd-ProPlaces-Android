@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/fram_button_0"
+        style="@style/base_linear_layout"
+
+        android:layout_alignParentLeft="true"
+        >
+
+        <View
+            android:id="@+id/topbar_button_0"
+            style="@style/vierw_base_style"/>
+
+        <ImageButton
+            android:id="@+id/action_0"
+
+            style="@style/image_base_style"
+            android:src="@drawable/peeps_white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fram_button_1"
+        style="@style/base_linear_layout"
+        android:layout_toRightOf="@+id/fram_button_0"
+
+        >
+
+        <View
+            android:id="@+id/topbar_button_1"
+            style="@style/vierw_base_style"/>
+
+        <ImageButton
+            android:id="@+id/action_1"
+            style="@style/image_base_style"
+            android:src="@drawable/building_gray"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fram_button_2"
+        style="@style/base_linear_layout"
+        android:layout_toRightOf="@+id/fram_button_1">
+
+        <View
+            android:id="@+id/topbar_button_2"
+            style="@style/vierw_base_style"/>
+
+        <ImageButton
+            android:id="@+id/action_2"
+            style="@style/image_base_style"
+            android:src="@drawable/filter"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fram_button_3"
+        style="@style/base_linear_layout"
+        android:layout_toRightOf="@+id/fram_button_2">
+
+        >
+
+        <View
+            android:id="@+id/topbar_button_3"
+            style="@style/vierw_base_style"/>
+
+        <ImageButton
+            android:id="@+id/action_3"
+
+            style="@style/image_base_style"
+            android:src="@drawable/search_world_white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fram_button_4"
+        style="@style/base_linear_layout"
+        android:layout_alignParentRight="true">
+
+
+        <View
+            android:id="@+id/topbar_button_4"
+            style="@style/vierw_base_style"/>
+
+        <ImageButton
+            android:id="@+id/action_4"
+
+            style="@style/image_base_style"
+            android:src="@drawable/menu_icon"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

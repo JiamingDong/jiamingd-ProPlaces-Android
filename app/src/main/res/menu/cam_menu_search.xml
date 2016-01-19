@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+      xmlns:app="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/search_item"
+        android:title="search"
+        android:orderInCategory="100"
+        android:layout_gravity="right"
+        appcompat:showAsAction="always"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView" />
+    <item android:id="@+id/action_search_done"
+          android:title=""
+          android:orderInCategory="200"
+          android:layout_gravity="right"
+          android:icon="@drawable/go_white"
+          app:showAsAction="always" />
+
+</menu>

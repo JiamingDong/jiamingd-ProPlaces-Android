@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/data_root_view_group"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="0dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dp"
+        android:background="#cc626262"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#999"
+            android:paddingLeft="2dp"
+            android:text="Required:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="4dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/person_image_view"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#555"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gear_dark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    style="?android:listSeparatorTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Search Term:"
+                    />
+
+                <EditText
+                    android:id="@+id/person_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:hint="e.g. Gibson's or Vietnamese"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/extract_email_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_selector"
+            android:text="Search"
+            android:textColor="@color/white"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="8dp"
+            android:background="#ffc0c0c0"/>
+
+        <LinearLayout
+            android:id="@+id/details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:background="#999"
+                android:paddingLeft="2dp"
+                android:text="Details:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight=".25"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/text_phone"
+                        style="?android:listSeparatorTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone:"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_alt_phone"
+                        style="?android:listSeparatorTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alternative phone:"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_address"
+                        style="?android:listSeparatorTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address:"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_email"
+                        style="?android:listSeparatorTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email page:"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        style="?android:listSeparatorTextViewStyle"
+                        android:layout_marginTop="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Category"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="180dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:id="@+id/person_phone"
+                        android:hint="Phone number..."
+                        android:inputType="phone"
+                        style="@style/resto_details"
+                        />
+
+                    <EditText
+                        android:id="@+id/person_alt_phone"
+                        android:hint="Phone number..."
+                        android:inputType="phone"
+                        style="@style/resto_details"
+                        />
+
+                    <EditText
+                        android:id="@+id/person_address"
+                        android:hint="Address..."
+                        style="@style/resto_details"
+                        />
+
+                    <EditText
+                        android:id="@+id/person_email"
+                        style="@style/resto_details"
+                        android:hint="Email..."
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Spinner
+                            android:id="@+id/view_spin"
+                            android:entries="@array/person_category"
+                            style="@style/category_spinner"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="#ffc0c0c0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancel_action_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="25"
+                android:text="Cancel"
+                />
+
+            <Button
+                android:id="@+id/save_data_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_weight="75"
+                android:text="Save"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

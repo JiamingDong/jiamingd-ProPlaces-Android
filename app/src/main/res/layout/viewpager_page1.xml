@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:text="Hello, Welcome to People and Places,\n
+                      Here you can:\n
+                      manage your favorite peoples and places\n
+                      check the information of your interests\n
+                      Other funny things waiting for you to dig out ..."
+        android:textColor="@color/white"
+        android:textStyle="italic|bold"
+
+        />
+
+</LinearLayout> 
